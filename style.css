@@ -1,0 +1,250 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.left{
+  height: 500px;
+  width: 20%;
+  background-color: #ec5f6f;
+  float:left;
+}
+.center{
+  height: 500px;
+  width: 30%;
+  background-color: #0c4b52;
+  float:left;
+  padding-top: 49px;
+  padding-left: 2px;
+}
+.profile_image{
+  height: 370px;
+    width: 400px;
+    border-radius:50%;
+}
+.right{
+  height: 500px;
+    width: 50%;
+    float: right;
+    background-color: #ec5f6f;
+    text-align: center;
+    padding: 0 38px 0 46px;
+    color: #262529e0;
+}
+.right-footer{
+  bottom: auto;
+text-align: right;
+margin-top: 147px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+.title{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0 600px 0px 400px;
+}
+
+.hobby-title{
+  background-color:#ec5f6f;
+color: #0c4b52;
+width: 500px;
+}
+.gym{
+height: auto;
+width: 20%;
+float: left;
+padding: 4px;
+}
+.world{
+height: auto;
+width: 20%;
+float: left;
+padding: 4px;
+}
+.game{
+height: auto;
+width: 20%;
+float: left;
+padding: 4px;
+}
+.shopping{
+height: auto;
+width: 20%;
+float: left;
+padding: 4px;
+}
+.camera{
+height: auto;
+width: 20%;
+float: left;
+padding: 4px;
+}
+.place1{
+height: auto;
+width: 33.33%;
+float: left;
+padding: 4px;
+text-align: center;
+}
+.place2{
+height: auto;
+width: 33.33%;
+float: left;
+padding: 4px;
+}
+
+.hobbi-div{
+  background-color: none !important;
+  padding: 31px 16px 13px 15px;
+    text-align: center;
+}
+.hobbi-div img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.travel{
+      background-color: #ec5f6f;
+}
+
+.contact-header{
+width: 100%;
+height: 100px;
+background-color: #084d52;
+}
+.contact-footer{
+  width: 100%;
+height: 100px;
+background-color: #084d52;
+}
+.contact-body{
+  width: 100%;
+height: 400px;
+background-color: #ec5f6f;
+}
+.contact-body-left{
+  height: auto;
+  width: 50%;
+  float: left;
+  padding: 55px 1px 5px 118px;
+}
+.contact-img{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+.contact-body-left h1{
+  color:#084d52;
+}
+.contact-body-left span{
+  color:#084d52;
+  font-weight: 600;
+}
+.contact-body-left p{
+  color:white;
+}
+
+h4{
+background-color: skyblue;
+color: deeppink;
+text-align: center;
+}
+
