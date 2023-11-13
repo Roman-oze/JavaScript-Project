@@ -4,64 +4,68 @@
 <title>Personal Overview</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="navbar">
-    <marquee  width ="10%" direction ="right"><a href="#Home">Home</a></marquee>
-      <marquee  width ="10%" direction ="left"><a href="#Work Experience">Work Experience</a></marquee>
-         <marquee  width ="10%" direction ="left"><a href="#Hobby"> Hobby</a></marquee>
-          <marquee  width ="10%" direction ="right"><a href="#Travel Place">Travel Place</a></marquee>
-            <marquee width ="10%" direction ="left"><a href="#Contact">Contact</a></marquee>
-              </div>
-   
-<div class="row">
-  <div class="left">
-
-  </div>
-  <div class="center">
-    <marquee  direction ="right"><img class="profile_image" src="image/first.jpg" alt=""></marquee>
-  </div>
-  <div class="right">
-
-    <h1>Hello &#9989;</h1>
-     <h3>I'm Roman Oze &#127758;</h3>
 
 
-
-<p id="demo"></p>
-<button background-color="red" onclick="typeWriter()">Touch me</button>
-
-<script>
-var i = 0;
-
-var txt = 'Im sincere,responsible,dedicate,straight forward person.I believe in connectivity because connectivity is producativity.Always i try to encourage every people confidance is my power.Im 23 years old.I was born in Brahmanbaria.I grew up in Dhaka.My school was B-Baria then i completed my HSC from Dhanmondi Ideal collage.Afterthat i went china for study then .I did completed my 2 years study .Afterworth i came bangladesh in vaccation thats time i didnt go there .Then i took decision  to admit in Daffodil Internation University department of ITM.Now im gonna say about my family.My father Businessman & Mother is housewife.We are four brother mah first brother is Softoware engineer & second brother aboard then me last but not least 4th brother doing study in class 7.So that was me and my whole family Introduction';
-
-
-var speed = 10;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-
-  }
-}
-</script>
-  
-    <div class="right-footer">
+  <div class="row1">
+    <div class="logoimg">
+       <img src="image/pf.png" class="pf">
+      </h2></div>
      
-     <a href="www.facebook.com/islamfull.5" class="fa fa-facebook"></a>
-<a href="www.instagram.com/rumu303" class="fa fa-instagram"></a>
 
-     </div>
+        <div class="navbar">
+          <a href="#Home">Home</a>
+          <a href="#Work Experience">Work Experience</a>
+          <a href="#Hobby"> Hobby</a>
+          <a href="#Travel Place">Travel Place</a>
+          <a href="#Contact">Contact</a>
+   </div>
+
+</div>
+
+
+
+<!-- <div class="container-fluid	">
+<div class="row">
+  <div class="col-sm-6 left">
+       <img src="image/hello.png" class="hello">
+       
+      <h3>I'm Roman Oze<img src="image/verify.jpg" class="verify"></h3>
+        
+  </div>
+
+  <div class="col-sm-6 right">
+     <img src="image/dp - Copy.jpg" class="profile_image">
+     
+  </div>
+</div>
+</div> -->
+
+<div class="container-fluid mt-3">
+  <div class="row">
+
+    <div class="col-sm-4 p-3 text-center text-dark left">
+      <img src="image/hello.png" class="hello">
+       <h3>I'm Roman Oze<img src="image/verify.jpg" class="verify"></h3>
+    </div>
+
+    <div class="col-sm-8 p-3   right">
+      <img src="image/dpwhite3.jpg" class="profile_image">
+     
+    </div>
   </div>
 </div>
 
 
-<div class="row">
+<br>
+<br>
+<!-- <div class="row">
   <div class="title">
     <div class="hobby-title">
          <h1 >My Hobby</h1>
@@ -69,7 +73,7 @@ function typeWriter() {
   </div>
   <div class="hobby">
     <div class="hobbi-div gym">
-      <a href="#gymm"><marquee width="55%" direction="right"> <img src="image/gym.jpg" alt=""></marquee></a>
+    <img src="image/gym.jpg">
       <h1>GYM</h1>
       <p>“If you want something you’ve never had, you must be willing to do something you’ve never done.”</p>
     </div>
@@ -95,8 +99,67 @@ function typeWriter() {
     </div>
 
   </div>
+</div> -->
+<div class="container-fluid">
+ <div class="row text-center text-dark p-3">
+  <div class="title text-center ">
+    <div class="hobby-title">
+         <h1 >My Hobby</h1>
+    </div>
+  </div>
+
+  <div class="col-sm-4  p-3">
+    <div class="div border border-info p-2">
+    <img src="image/gym.jpg" class="hobimg">
+      <h1>GYM</h1>
+      <p>“If you want something you’ve never had, you must be willing to do something you’ve never done.less eat feel fit”</p>
+  </div>
 </div>
 
+  <div class="col-sm-4 p-3">
+    <div class="div border border-warning p-2">
+    <a href="#tour"><img src="image/tour.jpg" class="hobimg"></a>
+    <h1>Travelling</h1>
+    <p>Traveling quotes often mention the fact of how travel makes you humble and how life experiences are more important </p>
+  </div>
+</div>
+
+  <div class="col-sm-4  p-3">
+    <div class="div border border-danger p-2">
+    <a href="#camera"><img src="image/camera1.jpg" class="hobimg"></a>
+    <h1>Photography</h1>
+    <p>It’s no wonder that photography quotes are one of the most popular things to share on social media, usually by other photographers</p>
+  </div>
+  </div>
+</div>
+
+
+ <div class="row text-center text-dark p-3 d-flex justify-content-around">
+  <div class="col-sm-4  p-3">
+    <div class="div border border-success p-2">
+    <a href="#camera"><img src="image/camera1.jpg" class="hobimg"></a>
+    <h1>Photography</h1>
+    <p>It’s no wonder that photography quotes are one of the most popular things to share on social media, usually by other photographers, of course.</p>
+  </div>
+  </div>
+  <div class="col-sm-4  p-3">
+    <div class="div border border-info p-2">
+    <a href="#shopping"><img src="image/shopping.jpg" class="hobimg"></a>
+    <h1>Shopping</h1>
+    <p>Buy what you don’t have yet or what you really want, which can be mixed with what you already own. Buy only because something excites you,</p>
+  </div>
+  </div>
+  
+  <div class="col-sm-4  p-3">
+    <div class="div border border-success p-2">    
+      <a href="#cricket"><img src="image/cricket.jpg" class="hobimg"></a>
+    <h1>Cricket</h1>
+    <p>Nothing is easy in cricket. Maybe when you watch it on TV, it looks easy. But it is not. You have to use your brain and time the ball.cricket mix with my blood</p>
+  </div>
+  </div>
+</div>
+</div>
+</div>
 
 <div class="row">
   <div class="title">
@@ -169,7 +232,7 @@ function typeWriter() {
 
    </div>
    <div class="contact-body">
-     <div class="contact-body-left">
+     <iv class="contact-body-left">
       
        <h1>Contact me</h1>
        <span>Address</span>
@@ -185,56 +248,14 @@ function typeWriter() {
         <a href="//www.instagram.com/rumu303" class="fa fa-instagram"></a>
 
 
-     </div>
+     </iv>
      <div class="contact-body-right">
         <marquee width="30%" direction ="left"><img class="contact-img" src="image/2nd.jpg" alt=""></marquee>
      </div>
    </div>
    <div class="contact-footer">
-    <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
-}
-
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+   </div>
+   
 
 
 
@@ -243,5 +264,22 @@ function typeWriter() {
 
    </div>
  </div>
+ <script>
+  var i = 0;
+  
+  var txt = 'Im sincere,responsible,dedicate,straight forward person.I believe in connectivity because connectivity is producativity.Always i try to encourage every people confidance is my power.Im 23 years old.I was born in Brahmanbaria.I grew up in Dhaka.My school was B-Baria then i completed my HSC from Dhanmondi Ideal collage.Afterthat i went china for study then .I did completed my 2 years study .Afterworth i came bangladesh in vaccation thats time i didnt go there .Then i took decision  to admit in Daffodil Internation University department of ITM.Now im gonna say about my family.My father Businessman & Mother is housewife.We are four brother mah first brother is Softoware engineer & second brother aboard then me last but not least 4th brother doing study in class 7.So that was me and my whole family Introduction';
+  
+  
+  var speed = 10;
+  
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+  
+    }
+  }
+  </script>
 </body>
 </html>

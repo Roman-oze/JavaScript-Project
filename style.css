@@ -8,46 +8,85 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  height: 100px;
 }
+.logoimg{
+  width:20%;
+    height:auto;
+    float: left;
 
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
 }
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
+.pf{
+  height: 50px;
+    width: 100px;
 }
-
-/* Style the navigation bar links */
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-content: center;
+  max-width:80%;
+  height: auto;
+ float: right;
+}
 .navbar a {
-  float: left;
-  display: block;
-  color: white;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-}
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
 }
-
-/* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  font-weight: bold;
   color: black;
+  border-bottom:3px solid rgb(43, 41, 41);
+  border-width: auto;
+} */
+
+.left{
+  color: #ec5f6f;
 }
+.right{
+  text-align: right;
+ 
+}
+.profile_image{
+  height: 400px;
+  width: auto;
+
+  
+}
+.verify{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+.hello{
+  height: 150px;
+  width: 300px;
+}
+p{
+  font-size: large;
+  font-weight: bold;
+}
+.hobimg{
+  height:100px ;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+
+
+
+
+
 
 /* Column container */
 .row {
@@ -75,39 +114,19 @@ body {
 }
 
 /* Fake image, just for this example */
-.fakeimg {
+/* .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
+} */
+
+h3{
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: auto;
 }
-.left{
-  height: 500px;
-  width: 20%;
-  background-color: #ec5f6f;
-  float:left;
-}
-.center{
-  height: 500px;
-  width: 30%;
-  background-color: #0c4b52;
-  float:left;
-  padding-top: 49px;
-  padding-left: 2px;
-}
-.profile_image{
-  height: 370px;
-    width: 400px;
-    border-radius:50%;
-}
-.right{
-  height: 500px;
-    width: 50%;
-    float: right;
-    background-color: #ec5f6f;
-    text-align: center;
-    padding: 0 38px 0 46px;
-    color: #262529e0;
-}
+
+
 .right-footer{
   bottom: auto;
 text-align: right;
@@ -147,7 +166,7 @@ margin-top: 147px;
 color: #0c4b52;
 width: 500px;
 }
-.gym{
+/* .gym{
 height: auto;
 width: 20%;
 float: left;
@@ -176,7 +195,7 @@ height: auto;
 width: 20%;
 float: left;
 padding: 4px;
-}
+} */
 .place1{
 height: auto;
 width: 33.33%;
