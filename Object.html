@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta i="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- <form action="">
+    <input type="text" i="" id="">
+    <button>Add</button>
+</form> -->
+<p id="demo"></p>
+<button type="button" onclick="myFunction()">click</button>
+
+<button onclick="this.innerHTML=Date()">Show The Date</button>
+
+
+
+    <script>
+function myFunction(){
+document.getElementById("demo").innerHTML="I learning Javascript";
+}
+
+
+
+const object = {
+  name: "",
+  age: '',
+  email: "",
+  
+  start: function (title) {
+    console.log("Title: " + title);
+  },
+  
+  middle: function (color) {
+    console.log("Car color: " + color);
+  },
+  
+  last: function (description) {
+    console.log("Description: " + description);
+  }
+};
+
+// Dynamic inputs
+object.name = prompt('Enter the name :')
+object.age =prompt('Enter the age :')
+object.email =prompt('Enter the Email :')
+
+// Dynamic function value input
+const titleInput = prompt("Enter a title:");
+const colorInput = prompt("Enter car color:");
+const descriptionInput = prompt("Enter description:");
+
+// Accessing static properties
+console.log("Name:", object.name);
+console.log("Age:", object.age);
+console.log("Email:", object.email);
+
+// Dynamic method calls with user input
+object.start(titleInput);
+object.middle(colorInput);
+object.last(descriptionInput);
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    <script src="/script.js"></script>
+</body>
+</html>

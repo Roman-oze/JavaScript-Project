@@ -8,27 +8,27 @@
 
 
 
-var name =  'Roman Islam Rumu' ;
- 
-// var check = name.charAt(5);
-var len = name.length;
-var tokra = name.slice(6 ,16);
-var upper = tokra.toUpperCase();
-var lower = tokra.toLowerCase();
-var sliceLength = tokra.length;
+                    // var name =  'Roman Islam Rumu' ;
+                    
+                    // // var check = name.charAt(5);
+                    // var len = name.length;
+                    // var tokra = name.slice(6 ,16);
+                    // var upper = tokra.toUpperCase();
+                    // var lower = tokra.toLowerCase();
+                    // var sliceLength = tokra.length;
 
-console.log("Length means total Size : "+len);
-console.log("Display slice to  :"+tokra);
-console.log("Display slice to  :"+sliceLength);
-console.log("upper letter : "+upper);
-console.log("lower letter : "+lower);
-console.log('check the character  :'+name.charAt(1));
+                    // console.log("Length means total Size : "+len);
+                    // console.log("Display slice to  :"+tokra);
+                    // console.log("Display slice to  :"+sliceLength);
+                    // console.log("upper letter : "+upper);
+                    // console.log("lower letter : "+lower);
+                    // console.log('check the character  :'+name.charAt(1));
 
 
 
-var text  = prompt("Inter Your Number : ")
+// var text  = prompt("Inter Your Number : ")
 
-console.log("Save Name : " + name.concat(text));
+// console.log("Save Name : " + name.concat(text));
 
 
 
